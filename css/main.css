@@ -1,0 +1,154 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Arial';
+	list-style: none;
+}
+#header{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	margin-top: 2%;
+	overflow: hidden;
+	padding: 1%;
+	text-align: center;
+	background-color: rgba(255, 0, 137, 0.5);
+	background: rgba(255, 0, 137, 0.5);
+	-webkit-box-shadow: -2px 20px 40px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px 20px 40px -4px rgba(0,0,0,0.75);
+	box-shadow: -2px 20px 40px -4px rgba(0,0,0,0.75);
+	margin-bottom: 3%;
+}
+#header h1{
+	color: white; 
+}
+#conte{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	box-sizing: border-box;
+	background: url(https://image.freepik.com/vector-gratis/fondo-pintura-acuarela-rosa-vibrante_53876-58930.jpg);
+	background-size: cover;
+}
+#nave{
+	width: 28%;
+	float: left;
+	height: auto;
+	margin: 2%;
+	padding: 1%;
+	box-sizing: border-box;
+	background-color: rgba(255, 0, 137, 0.7);
+	background: rgba(255, 0, 137, 0.7);
+	overflow: hidden;
+	text-align: center;
+
+}
+#tit{
+	width: 100%;
+	height: auto;
+	padding: 1%;
+	color: pink;
+	background: #fff;
+	letter-spacing: 2px;
+	font-style: cursive;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin-bottom: 2%;
+	font-size: 120%;
+	border-radius: 2px;
+}
+#opc ul{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	padding: 2%;
+	overflow: hidden;
+}
+#opc ul li{
+	list-style: none;
+	display: block;
+	padding: 1%;
+	width: 60%;
+	border: solid #fff;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10%;
+	border-radius: 15px;
+	background: #F708A3;
+	transition: all 1s;
+}
+#opc ul li:hover{
+	
+	width: 65%;
+	border: solid #F708A3;
+	background: #FFF;
+	color: #F708A3;
+}
+#opc ul li a:hover{
+	color: #F708A3;
+	
+}
+#opc ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 150%;
+}
+#proyec{
+	width: 64%;
+	height: auto;
+	float: right;
+	margin: 2%;
+	max-height: 530px;
+	box-sizing: border-box;
+	overflow: hidden;
+	}
+#proyec img{
+	width: 90%;
+	height: 530px;
+}
+#compra{
+	width: 100%;
+	height: auto;
+	
+	box-sizing: border-box;
+	background: url(https://cdn.kiwilimon.com/recetaimagen/35112/th5-640x426-40965.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: pink;
+	overflow: hidden;
+	text-align: center;
+	border:solid #F708A3;
+	border-radius: 15px;
+}
+.colo{
+	width: 100%;
+	height: 100%;
+	padding: 1%;
+	background: rgba(0,0,0,.8);
+}
+#form{
+	width: 90%;
+	height: auto;
+	margin: 2%;
+}
+input{
+	width: 15%;
+	height: auto;
+	padding: 0.2%;
+	font-size: 120%;
+	border-radius: 5px;
+	border:solid #F708A3;
+	color: pink;
+	background: rgb(0,0,0,.9);
+	text-align: center;
+	margin-bottom: 1%;
+}
+#form a{
+	text-decoration: none;
+	background:white;
+	padding: 1%;
+	color: #F708A3;
+	border:solid #F708A3;
+	border-radius: 15px;
+	margin-top: 15%;
+}
